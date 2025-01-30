@@ -5,37 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Happy Birthday Khadijah! 🎂</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollReveal.js/4.0.9/scrollreveal.min.js"></script>
 </head>
 <body>
-    <div id="fireworks"></div> 
+    <div id="stars"></div> <!-- Magical Stars Effect -->
+    
+    <h1>🎉 Happy Birthday, Khadijah! 🎂</h1>
 
-    <div class="container">
-        <h1 id="title">🎉 Happy Birthday, Khadijah! 🎂</h1>
-        <p id="message">A day as special as you deserves the grandest celebration!</p>
-        
-        <div id="countdown"></div>
-
-        <button id="surpriseBtn">Click for a Surprise 🎁</button>
-
-        <div id="surpriseContent" class="hidden">
-            <p class="special-message">With all my love, always yours. 💜</p>
-
-            <div class="gallery">
-                <img src="image1.jpg" alt="Happy Moments">
-                <img src="image2.jpg" alt="Special Memories">
-                <img src="image3.jpg" alt="Forever Us">
+    <!-- 3D Birthday Card -->
+    <div class="card-container">
+        <div class="card" id="birthdayCard">
+            <div class="card-front">
+                <h2>💜 Open Me 💜</h2>
             </div>
-
-            <button id="unlockMessage">Unlock Special Message 🔐</button>
-            <p id="hiddenMessage" class="hidden">Khadijah, you are my world. Every day with you is a gift. 💜</p>
+            <div class="card-back">
+                <p>Happy Birthday, my love! You are my everything. 💜</p>
+                <p>With all my love, always yours. Yasir</p>
+            </div>
         </div>
     </div>
 
-    <audio id="bgMusic" loop>
-        <source src="music.mp3" type="audio/mp3">
-    </audio>
+    <!-- Floating Balloons -->
+    <div id="balloons-container"></div>
 
     <script src="script.js"></script>
 </body>
